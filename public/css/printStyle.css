@@ -1,0 +1,52 @@
+
+body {
+    background-color: white; 
+    color: black;
+    font-size: 10px ;
+}
+
+nav, .advertisement, .sidebar, .footer, .menu {
+    display: none; 
+}
+
+
+p, h1, h2, h3, h4, li {
+    font-family: serif; 
+    color: black;
+}
+
+* {
+    color: black !important; 
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black ; 
+}
+
+a {
+    
+    color: black;
+}
+
+.zoznam {
+    background-color: transparent;
+    color: black;
+}
+
+/*obrazky*/
+img {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto;
+}
+.container{
+    box-shadow: 0px 6px 6px black;
+}
+.kruh{
+    color: black;
+}
