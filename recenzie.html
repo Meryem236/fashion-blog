@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="screenStyle.css">
+    <link rel="stylesheet" type="text/css" href="./public/css/printStyle.css" media="print">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recenzie</title>
+</head>
+    <body>
+        <header>
+            <!-- LOGO -->
+    <div class="container">
+        <div class="kontakt">
+            <div class="kruh">
+                <svg width="80" height="75">
+                    <path d="M 40 5 
+                            L 47.5 25 
+                            L 70 27.5 
+                            L 52.5 40 
+                            L 57.5 62.5 
+                            L 40 50 
+                            L 22.5 62.5 
+                            L 27.5 40 
+                            L 10 27.5 
+                            L 32.5 25 
+                            Z" 
+                            fill="#8D0101" 
+                            stroke="white" 
+                            stroke-width="0.5" />
+                        <!-- mala hviezda hore -->
+                            <path d="M 35 -3 
+                            L 40.75 0
+                            L 42.5 0
+                            L 41.25 1.5 
+                            L 42 3.5 
+                            L 40 2.5 
+                            L 38.5 3.5 
+                            L 39.25 1.5 
+                            L 38.5 0
+                            L 40 0
+                            Z" 
+                            fill="white"
+                            stroke-width="0.75"/>
+                            
+                    <!-- mala hviezda napravo -->
+                    <path d="M 75 25 
+                            L 75.75 27 
+                            L 77.5 27 
+                            L 76.25 28.5 
+                            L 77 30.5 
+                            L 75 29.5 
+                            L 73.5 30.5 
+                            L 74.25 28.5 
+                            L 73.5 27 
+                            L 75 27 
+                            Z" 
+                            fill="white"
+                            stroke-width="0.75"/>
+                    <!-- mala hviezda naľavo -->
+                    <path d="M 5 25 
+                            L 5.75 27 
+                            L 7.5 27 
+                            L 6.25 28.5 
+                            L 7 30.5 
+                            L 5 29.5 
+                            L 2.5 30.5 
+                            L 3.25 28.5 
+                            L 2.5 27 
+                            L 5 27 
+                            Z" 
+                            fill="white"  
+                            stroke-width="0.75"/>
+                
+                    <!-- lodička -->
+                    <path d="M 17.5 21 
+                            Q 32 37.5, 48 60 
+                            Q -5 -15, 35 50 
+                            L 12.5 35 
+                            M 42.5 60 
+                            L 67.5 60 
+                            Q 55 45, 34 49 
+                            Z" 
+                            fill="black"/>
+                                        
+                    <!-- opätok -->
+                    <path d="M 12.5 35 
+                            L 21.5 40  
+                            L 20 62.5 Z" 
+                            fill="black"/>
+                </svg>
+                </div>
+                    <!--nav element-->
+                    <nav>
+                        <h2>Mariana Tomiová</h2>
+                        <h4 class="email"><a href="https://outlook.office365.com/mail/">E-mail: mariana.tomiova@student.tuke.sk</a></h4>
+                        <div class="menu-pas">
+                            <div class="menu">
+                                <a href="./index.html" class="button-link"><span>Home</span></a>
+                                <a href="./articles.html" class="button-link"><span>Articles</span></a>
+                                <a href="./recenzie.html" class="button-link"><span>Reviews</span></a>
+                                <a href="./kontakt.html" class="button-link"><span>Contact</span></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>  
+            </div>
+        </header>
+<br><br><br>
+        <div class="formular">
+            <section>
+                <h3>Contact us</h3>
+                <form action=" " method="get">
+                    <div class="input-group">
+                        <div class="input-item">
+                            <label for="name"><span class="hviezdicka">*</span>Name: </label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="input-item">
+                            <label for="email"><span class="hviezdicka">*</span>E-mail: </label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+        
+                    <label for="picture">Picture (URL):</label>
+                    <input type="url" id="picture" name="picture">
+        
+                    
+                    <div class="checkbox-group">
+                        <label for="title">What fashion content are you interested in? </label>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="trend" name="content">
+                            <label for="trend">Fashion trends</label>           
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="style" name="content">
+                            <label for="style">Style tips</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="Sustainability" name="content">
+                            <label for="sustainability">Sustainability in fashion</label>
+                        </div>
+                    </div>
+                        
+                    <div class="radio-group">
+                        <label for="title">What you prefer ?</label>
+                        <div class="radio-item">
+                            <input type="radio" id="bold" name="colors" value="bold">
+                            <label for="bold">Bold colors</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="neutral" name="colors" value="neutral">
+                            <label for="neutral">Neutral colors</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="mix" name="colors" value="mix">
+                            <label for="mix">A mix of both</label>
+                        </div>
+                    </div>
+                  
+                   
+                    
+        
+                    <label for="keywords">Enter keywords that you think best describe our site:</label>
+                    <input type="text" id="keywords" name="keywords" list="keyword-list" placeholder="e.g.: fashion, trends, style" >
+                    <datalist id="keyword-list">
+                        <option value="fashion">
+                        <option value="trends">
+                        <option value="style">
+                        <option value="outfits">
+                        <option value="clothing">
+                        <option value="accessories">
+                        <option value="sustainable fashion">
+                        <option value="beauty tips">
+                        <option value="runway">
+                        <option value="casual wear">
+                        <option value="formal wear">
+                    </datalist>
+
+                    <label for="feedback"><span class="hviezdicka">*</span>Do you have any suggestions to improve your experience on our site?</label>
+                    <textarea required="feedback" name="feedback" rows="10" cols="40" placeholder="Write your opinion here..."></textarea><br><br>
+        
+                    
+        
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+        
+   
+    </body>
+</html>
+          
+
